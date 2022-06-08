@@ -1,0 +1,16 @@
+{
+  "name": "data",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "json-server --watch base.json --port 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.17.0"
+  }
+}

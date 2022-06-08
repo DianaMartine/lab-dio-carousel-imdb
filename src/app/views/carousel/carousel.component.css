@@ -1,0 +1,77 @@
+.carousel {
+  display: flex;
+  position: relative;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 0.5em;
+  justify-content: center;
+}
+
+.slide {
+  width: 90vw;
+  min-width: 240px;
+  max-width: 380px;
+  border-radius: 0.5em;
+}
+
+.slide:hover {
+  animation: transform 0.5s ease-in-out;
+}
+
+@keyframes transform {
+  0% {
+    transform: scale(1);
+  }
+
+  50% {
+    transform: scale(1.025);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+}
+
+.control {
+  border: none;
+  background-color: transparent;
+  outline: 0;
+  cursor: pointer;
+  color: black;
+  font-weight: bold;
+  margin: 10px;
+}
+
+@media screen and (min-width: 340px) {
+  mat-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .control {
+    position: absolute;
+    background-color: red;
+    top: 45vh;
+  }
+
+  .prev {
+    left: 15px;
+  }
+
+  .next {
+    right: 15px;
+  }
+}
+
+@media screen and (min-width: 460px) {
+  .prev {
+    left: 0;
+  }
+
+  .next {
+    right: 0;
+  }
+}
