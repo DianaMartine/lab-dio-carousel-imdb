@@ -4,7 +4,7 @@
 			<h1 class="page-title">Carousel com Angular</h1>
 		</header>
 		<div class="page-body">
-			<blockquote id="ca2e9da3-3d41-4bdc-9be1-27d0cefc612b" class="">📁 Repositório disponível em: [Link do repo]!
+			<blockquote id="ca2e9da3-3d41-4bdc-9be1-27d0cefc612b" class="">📁 Repositório disponível em: <a href='https://github.com/DianaMartine/lab-dio-carousel-imdb'>Github!</a>
 			</blockquote>
 			<ul id="5bf4fd57-0b26-452c-90b3-9475e2068b6a" class="block-color-red_background toggle">
 				<li>
@@ -15,15 +15,15 @@
 								<details>
 									<summary>🛠️ O que iremos criar?</summary>
 									<ul id="4a0bc4bd-201b-41df-b5bc-a35eee8ccf09" class="bulleted-list">
-										<li style="list-style-type:disc">Um app web com a dinâmica em Carousel<figure
-												id="d6a8fdb4-feb9-47b5-9636-fec16e9c8733" class="image"><a
-													href="Plano%20de%20Aulas%20-%20Angular%20-%20Carousel%20d6a8fdb4feb947b59636fec16e9c8733/Untitled.png"><img
-														style="width:571px"
-														src="Plano%20de%20Aulas%20-%20Angular%20-%20Carousel%20d6a8fdb4feb947b59636fec16e9c8733/Untitled.png" /></a>
-											</figure>
-											<p id="90085d48-100a-40af-968e-030c2d54576e" class="">
-											</p>
+										<li style="list-style-type:disc">Um app web com a dinâmica em Carousel
 										</li>
+                    <br>
+                        <figure	id="d6a8fdb4-feb9-47b5-9636-fec16e9c8733" class="image">
+                          <a href="https://github.com/DianaMartine/lab-dio-carousel-imdb/blob/main/Untitled.png">
+                            <img width='250px' src="https://github.com/DianaMartine/lab-dio-carousel-imdb/blob/main/Untitled.png" />
+                          </a>
+											</figure>
+                    <br>
 									</ul>
 								</details>
 							</li>
